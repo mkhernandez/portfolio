@@ -10,6 +10,8 @@ const registerRouter = require('./routes/register');
 
 const app = express();
 
+app.use(express.static("public"));//reference to our public files
+
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
 app.set('views', __dirname + '/views');

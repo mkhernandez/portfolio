@@ -1,8 +1,16 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #36baf3;
+}
+
+img {
+  border-radius: 50%;
+}
+
+h1 {
+  border: 2px solid blueviolet;
 }
