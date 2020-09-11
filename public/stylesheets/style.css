@@ -1,16 +1,27 @@
 body {
   padding: 50px;
-  font: 30px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background: #F7FFF7;
+  box-sizing: border-box;
 }
 
 a {
-  color: #36baf3;
+  color: #ece2e2;
 }
 
-img {
+img.pomsky {
   border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  max-width: 500px;
+  max-height: 500px;
+
 }
 
 h1 {
-  border: 2px solid blueviolet;
+  
+}
+
+.jumbotron {
+  background-color: #4ECDC4;
 }
