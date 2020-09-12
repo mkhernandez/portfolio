@@ -1,8 +1,9 @@
 body {
-  padding: 50px;
+  /* padding: 50px; */
   font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #F7FFF7;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  color: #292F36;
 }
 
 a {
@@ -15,6 +16,7 @@ img.pomsky {
   height: 300px;
   max-width: 500px;
   max-height: 500px;
+  margin-top: 3%;
 
 }
 
@@ -22,6 +24,14 @@ h1 {
   
 }
 
-.jumbotron {
+.jumbotron-fluid {
   background-color: #4ECDC4;
+  max-width: 100%;
+  max-height: auto;
+  height: 250px;
+}
+
+.navbar-expand-lg {
+  color: #292F36;
+  background-color: #FF6B6B !important;
 }
