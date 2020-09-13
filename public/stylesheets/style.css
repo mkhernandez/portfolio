@@ -1,9 +1,14 @@
 body {
   /* padding: 50px; */
-  font: 24px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #F7FFF7;
-  /* box-sizing: border-box; */
+  box-sizing: border-box;
   color: #292F36;
+}
+/* navbar styling */
+.navbar-expand-lg {
+  color: #292F36 !important;
+  background-color: #FF6B6B !important;
 }
 
 a {
@@ -20,9 +25,6 @@ img.pomsky {
 
 }
 
-h1 {
-  
-}
 
 .jumbotron-fluid {
   background-color: #4ECDC4;
@@ -31,7 +33,15 @@ h1 {
   height: 250px;
 }
 
-.navbar-expand-lg {
-  color: #292F36;
-  background-color: #FF6B6B !important;
+
+
+form {
+  padding: 10px;
+  border: 1 px solid  #292F36;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 50%;
+}
+
+.navbar-toggler {
+  border: 1px solid  #292F36 !important;
 }
