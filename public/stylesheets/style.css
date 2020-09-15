@@ -1,9 +1,20 @@
 body {
   /* padding: 50px; */
   font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: #F7FFF7;
+  background: #F7FFF7 !important;
   box-sizing: border-box;
   color: #292F36;
+}
+
+.btn-primary {
+  background-color: #4ECDC4 !important;
+  border-color: #4ECDC4 !important;
+}
+
+.btn-secondary {
+  background-color: #FFE66D !important;
+  border-color: #FFE66D !important;
+  color: #292F36 !important;
 }
 /* navbar styling */
 .navbar-expand-lg {
@@ -11,6 +22,11 @@ body {
   background-color: #FF6B6B !important;
 }
 
+.navbar-toggler {
+  border: 1px solid  #292F36 !important;
+}
+
+/* home page styling */
 a {
   color: #ece2e2;
 }
@@ -25,7 +41,6 @@ img.pomsky {
 
 }
 
-
 .jumbotron-fluid {
   background-color: #4ECDC4;
   max-width: 100%;
@@ -34,14 +49,11 @@ img.pomsky {
 }
 
 
-
+/* Register page styling */
 form {
   padding: 10px;
-  border: 1 px solid  #292F36;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  width: 50%;
+  background-color: #FFE66D;
 }
 
-.navbar-toggler {
-  border: 1px solid  #292F36 !important;
-}
+
