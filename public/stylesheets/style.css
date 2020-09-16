@@ -56,4 +56,16 @@ form {
   background-color: #FFE66D;
 }
 
+/* Todo Page styling */
+.completed {
+  color: green;
+  text-decoration: line-through;
+}
+
+#container {
+  border: 2px solid gray;
+  width: 385px;
+}
+
+
 
