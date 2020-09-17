@@ -1,15 +1,15 @@
 <%- include("partials/header") %>
 <%- include("partials/navbar") %>
 
-<div id="container" class="container mt-5">
+<div id="container" class="container">
     <div class="row">
-        <div class="col">
-            <h1>To-Do-List</h1>
-            <input type="text">
-            <ul>
-                <li><span>X</span>Walk the dog</li>
-                <li><span>X</span>Walk the dog</li>
-                <li><span>X</span>Walk the dog</li>
+        <div class="col px-0">
+            <h1 class="todoListHeader py-1 px-3">To-Do-List<i class="fas fa-plus"></i></h1>
+            <input class="todoListInput" type="text">
+            <ul id="todoList">
+                <li class="todoItem"><span>X</span> Walk the dog</li>
+                <li class="todoItem"><span>X</span> Walk the dog</li>
+                <li class="todoItem"><span>X</span> Walk the dog</li>
             </ul>
         </div>
     </div>

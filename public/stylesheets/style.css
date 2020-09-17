@@ -1,6 +1,6 @@
 body {
   /* padding: 50px; */
-  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
   background: #F7FFF7 !important;
   box-sizing: border-box;
   color: #292F36;
@@ -57,14 +57,42 @@ form {
 }
 
 /* Todo Page styling */
+
+
+.todoListHeader {
+  background:  #4ECDC4;
+  width: 385px;
+  margin: 0;
+  color: #292F36;
+  text-transform: uppercase;
+  font-size: 36px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.todoListInput {
+  width: 385px;
+  border: 0;
+  background: #F7FFF7;
+  
+}
+
+#todoList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
 .completed {
   color: green;
   text-decoration: line-through;
 }
 
 #container {
-  border: 2px solid gray;
   width: 385px;
+  margin: 7% auto;
+  background: #FFE66D;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 
