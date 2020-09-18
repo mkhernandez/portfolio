@@ -1,5 +1,5 @@
 //Check off specific todo by clicking
-$("ul").on("click", "li", function() {
+$("#todoList").on("click", "li", function() {
     $(this).toggleClass("completed"); 
 });
 
@@ -16,6 +16,6 @@ $("input[type='text']").keypress(function(event) {
     if(event.which === 13){
         let inputText = $(this).val();
         $(this).val("");
-        $("#todoList").append("<li><span>X</span> " + inputText + "</li>");
+        $("#todoList").append("<li><span><i class='far fa-trash-alt'></i></span> " + inputText + "</li>");
     }
 });

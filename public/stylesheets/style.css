@@ -57,7 +57,26 @@ form {
 }
 
 /* Todo Page styling */
+span {
+  background: #FF6B6B;
+  height: 40px;
+  margin-right: 20px;
+  text-align: center;
+  color: #F7FFF7;
+  width: 0;
+  display: inline-block;
+  transition: 0.25s linear;
+  opacity: 0;
+}
 
+li:hover span {
+  width: 40px;
+  opacity: 1.0;
+}
+
+.fa-plus {
+  float: right;
+}
 
 .todoListHeader {
   background:  #4ECDC4;
@@ -70,10 +89,19 @@ form {
 }
 
 .todoListInput {
-  width: 385px;
-  border: 0;
-  background: #F7FFF7;
-  
+  width: 100%;
+  border: 3px solid rgba(0, 0, 0, 0);
+  color: #4ECDC4;
+  background:#f5f7f7;
+  font-size: 18px;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+}
+
+.todoListInput:focus {
+  background:#F7FFF7;
+  border: 3px solid #4ECDC4;
+  outline: none;
 }
 
 #todoList {
@@ -83,8 +111,19 @@ form {
   font-family: 'Roboto', sans-serif;
 }
 
+#todoList li {
+  background: #FFE66D;
+  height: 40px;
+  line-height: 40px;
+  /* color: #292F36; */
+}
+
+#todoList li:nth-child(2n) {
+  background: #F7FFF7;
+}
+
 .completed {
-  color: green;
+  color: #FF6B6B;
   text-decoration: line-through;
 }
 
