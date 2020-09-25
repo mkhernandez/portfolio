@@ -14,6 +14,13 @@ const app = express();
 
 app.use(express.static("public"));//reference to our public files
 
+app.use('/css', express.static(__dirname + '/node_modules/bootstrap/dist/css')); // redirect CSS bootstrap
+app.use('/js',  express.static(__dirname + '/node_modules/bootstrap/dist/js')); // redirect JS bootstrap
+app.use('/jquery',  express.static(__dirname + '/node_modules/jquery/dist')); //redirects to jquery
+app.use('/bootstrap-social', express.static(__dirname + '/node_modules/bootstrap-social'));
+app.use('/font-awesome', express.static(__dirname + '/node_modules/font-awesome'));
+
+
 // view engine setup
 // app.set('views', path.join(__dirname, 'views'));
 app.set('views', __dirname + '/views');
